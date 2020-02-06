@@ -2,6 +2,7 @@
   min-height: 100vh;
   height: 100vh;
   display: flex;
+  flex-direction:column;
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
@@ -23,6 +24,7 @@
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
+    padding-top:12%;
   }
 
   .hero-title {
