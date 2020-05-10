@@ -26,6 +26,22 @@
     margin-bottom:120px;
   }
 
+  .top-header{
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+
+    @include respond(phone) {
+      height: 165vw;
+    }
+    @include respond(phone-xs) {
+      height: 165vw;
+    }
+
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
